@@ -1,0 +1,16 @@
+﻿<Window x:Class="Geldscheinprüfung_GUI_T12_A.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Geldscheinprüfung_GUI_T12_A"
+        mc:Ignorable="d"
+        Title="Geldscheinprüfung" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="TB_Eingabe" HorizontalAlignment="Left" Height="42" Margin="291,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="287" FontSize="24"/>
+        <Label Content="Seriennummer eingeben:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <TextBlock x:Name="TB_Ausgabe" HorizontalAlignment="Left" Margin="291,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="71" Width="287" FontSize="24"/>
+        <Button x:Name="Btn_Bereche" Content="Überprüfen" HorizontalAlignment="Left" Margin="291,69,0,0" VerticalAlignment="Top" Width="287" FontSize="22" Click="Btn_Bereche_Click"/>
+
+    </Grid>
+</Window>
